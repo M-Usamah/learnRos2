@@ -1,0 +1,9 @@
+/home/usamah/Documents/project/learnRos2/src/udemy_ros2_pkg/build/CMakeFiles/uninstall.dir
+/home/usamah/Documents/project/learnRos2/src/udemy_ros2_pkg/build/CMakeFiles/udemy_ros2_pkg_uninstall.dir
+/home/usamah/Documents/project/learnRos2/src/udemy_ros2_pkg/build/CMakeFiles/test.dir
+/home/usamah/Documents/project/learnRos2/src/udemy_ros2_pkg/build/CMakeFiles/edit_cache.dir
+/home/usamah/Documents/project/learnRos2/src/udemy_ros2_pkg/build/CMakeFiles/rebuild_cache.dir
+/home/usamah/Documents/project/learnRos2/src/udemy_ros2_pkg/build/CMakeFiles/list_install_components.dir
+/home/usamah/Documents/project/learnRos2/src/udemy_ros2_pkg/build/CMakeFiles/install.dir
+/home/usamah/Documents/project/learnRos2/src/udemy_ros2_pkg/build/CMakeFiles/install/local.dir
+/home/usamah/Documents/project/learnRos2/src/udemy_ros2_pkg/build/CMakeFiles/install/strip.dir
