@@ -6,11 +6,13 @@
 /home/usamah/Documents/project/learnRos2/install/rpm_project/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
 /home/usamah/Documents/project/learnRos2/install/rpm_project/local/lib/python3.10/dist-packages/scripts/__init__.py
 /home/usamah/Documents/project/learnRos2/install/rpm_project/local/lib/python3.10/dist-packages/scripts/rpm_pub.py
-/home/usamah/Documents/project/learnRos2/install/rpm_project/local/lib/python3.10/dist-packages/scripts/rpm_pub_pam.py
+/home/usamah/Documents/project/learnRos2/install/rpm_project/local/lib/python3.10/dist-packages/scripts/rpm_pub_pram.py
 /home/usamah/Documents/project/learnRos2/install/rpm_project/local/lib/python3.10/dist-packages/scripts/speed_calc.py
 /home/usamah/Documents/project/learnRos2/install/rpm_project/local/lib/python3.10/dist-packages/scripts/speed_calc_pram.py
 /home/usamah/Documents/project/learnRos2/install/rpm_project/lib/rpm_project/rpm_pub.py
 /home/usamah/Documents/project/learnRos2/install/rpm_project/lib/rpm_project/speed_calc.py
+/home/usamah/Documents/project/learnRos2/install/rpm_project/lib/rpm_project/speed_calc_pram.py
+/home/usamah/Documents/project/learnRos2/install/rpm_project/lib/rpm_project/rpm_pub_pram.py
 /home/usamah/Documents/project/learnRos2/install/rpm_project/share/ament_index/resource_index/package_run_dependencies/rpm_project
 /home/usamah/Documents/project/learnRos2/install/rpm_project/share/ament_index/resource_index/parent_prefix_path/rpm_project
 /home/usamah/Documents/project/learnRos2/install/rpm_project/share/rpm_project/environment/ament_prefix_path.sh

@@ -15,8 +15,8 @@ ament_python_install_package(scripts)
 install(PROGRAMS
   scripts/rpm_pub.py
   scripts/speed_calc.py
-  scripts/speed_calc_cal.py
-  scripts/rpm_pub_cal.py
+  scripts/speed_calc_pram.py
+  scripts/rpm_pub_pram.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

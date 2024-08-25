@@ -12,10 +12,10 @@ class SpeedCalculator(Node):
         self.declare_parameter("wheel_radius", WHEEL_RADIUS)
         self.sub = self.create_subscription(Float32, 'rpm',self.calculator_speed,10)
         self.pub = self.create_publisher(Float32,"speed", 10)
-        
-        print(self.get_parameter("wheel_radius").get_parameter_value)
+
     def calculator_speed(self,rpm_msg):
-        speed = rpm_msg.data * WHEEL_RADIUS * 2 * 3.14159 / 60
+        wheel_radius_parameter = self.get_parameter("wheel_radius").get_parameter_value().double_value
+        speed = rpm_msg.data * wheel_radius_parameter  * 2 * 3.14159 / 60
         speed_msg = Float32()
         speed_msg.data = float(speed)
         self.pub.publish(speed_msg)

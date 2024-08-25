@@ -9,15 +9,18 @@ RPM = 10
 class RpmPublisher(Node):
     def __init__(self):
         super().__init__("RPM_publisher_node")
-        
+        self.declare_parameter("rpm_radius", RPM)
         self.pub = self.create_publisher(Float32,"rpm", 10)
         self.timer = self.create_timer(0.5, self.publish_rpm)
         self.counter = 0
-
+        # print(self.get_parameter("rpm_radius").get_parameter_value())
     def publish_rpm(self):
+        rpm_parameter = self.get_parameter("rpm_radius").get_parameter_value().integer_value
         msg = Float32()
-        msg.data = float(RPM)
+        msg.data = float(rpm_parameter)
         self.pub.publish(msg)
+        
+        
 def main(args=None):
     rclpy.init()
     my_message = RpmPublisher()
