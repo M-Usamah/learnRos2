@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_scripts_egg.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_build_scripts_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_scripts_egg:
-	cd /home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_python/scripts && /home/usamah/anaconda3/bin/python3 setup.py egg_info
+	cd /home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_python/scripts && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_scripts_egg: CMakeFiles/ament_cmake_python_build_scripts_egg
 ament_cmake_python_build_scripts_egg: CMakeFiles/ament_cmake_python_build_scripts_egg.dir/build.make

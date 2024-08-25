@@ -1,0 +1,77 @@
+[0.008s] Invoking command in '/home/usamah/Documents/project/learnRos2/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/usamah/Documents/project/learnRos2/01_udemy_publish_subscribe/src/udemy_ros2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg
+[0.042s] -- The C compiler identification is GNU 11.4.0
+[0.075s] -- The CXX compiler identification is GNU 11.4.0
+[0.080s] -- Detecting C compiler ABI info
+[0.123s] -- Detecting C compiler ABI info - done
+[0.128s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.128s] -- Detecting C compile features
+[0.128s] -- Detecting C compile features - done
+[0.130s] -- Detecting CXX compiler ABI info
+[0.186s] -- Detecting CXX compiler ABI info - done
+[0.192s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.192s] -- Detecting CXX compile features
+[0.192s] -- Detecting CXX compile features - done
+[0.194s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.293s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.336s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.357s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.432s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.510s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.510s] -- Configured cppcheck include dirs: 
+[0.510s] -- Configured cppcheck exclude dirs and/or files: 
+[0.510s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.511s] -- Added test 'lint_cmake' to check CMake code style
+[0.512s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.514s] -- Added test 'uncrustify' to check C / C++ code style
+[0.514s] -- Configured uncrustify additional arguments: 
+[0.515s] -- Added test 'xmllint' to check XML markup files
+[0.516s] -- Configuring done
+[0.518s] -- Generating done
+[0.518s] -- Build files have been written to: /home/usamah/Documents/project/learnRos2/build/udemy_ros2_pkg
+[0.521s] Invoked command in '/home/usamah/Documents/project/learnRos2/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/usamah/Documents/project/learnRos2/01_udemy_publish_subscribe/src/udemy_ros2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg
+[0.523s] Invoking command in '/home/usamah/Documents/project/learnRos2/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/usamah/Documents/project/learnRos2/build/udemy_ros2_pkg -- -j16 -l16
+[0.558s] Built target ament_cmake_python_symlink_scripts
+[0.733s] running egg_info
+[0.733s] creating scripts.egg-info
+[0.733s] writing scripts.egg-info/PKG-INFO
+[0.733s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[0.733s] writing top-level names to scripts.egg-info/top_level.txt
+[0.734s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[0.735s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[0.735s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[0.752s] Built target ament_cmake_python_build_scripts_egg
+[0.759s] Invoked command in '/home/usamah/Documents/project/learnRos2/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/usamah/Documents/project/learnRos2/build/udemy_ros2_pkg -- -j16 -l16
+[0.779s] Invoking command in '/home/usamah/Documents/project/learnRos2/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/usamah/Documents/project/learnRos2/build/udemy_ros2_pkg
+[0.783s] -- Install configuration: ""
+[0.783s] -- Execute custom install script
+[0.784s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.sh
+[0.789s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.dsv
+[0.794s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[0.799s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.804s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.809s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[0.814s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/__init__.py
+[0.818s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/publisher.py
+[0.823s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/subscriber.py
+[0.828s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher.py
+[0.833s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/subscriber.py
+[0.838s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg
+[0.842s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg
+[0.847s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh
+[0.852s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv
+[0.857s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh
+[0.863s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv
+[0.870s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash
+[0.876s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh
+[0.883s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh
+[0.890s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv
+[0.897s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv
+[0.905s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg
+[0.912s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake
+[0.920s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake
+[0.927s] -- Symlinking: /home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml
+[0.964s] Listing '/home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts'...
+[0.964s] Compiling '/home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/__init__.py'...
+[0.964s] Compiling '/home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/publisher.py'...
+[0.964s] Compiling '/home/usamah/Documents/project/learnRos2/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/subscriber.py'...
+[0.970s] Invoked command in '/home/usamah/Documents/project/learnRos2/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/usamah/Documents/project/learnRos2/build/udemy_ros2_pkg

@@ -49,8 +49,8 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
-        "/home/usamah/anaconda3/bin/python3" "-m" "compileall"
-        "/home/usamah/Documents/project/learnRos2/install/rpm_project/lib/python3.12/site-packages/scripts"
+        "/usr/bin/python3" "-m" "compileall"
+        "/home/usamah/Documents/project/learnRos2/install/rpm_project/local/lib/python3.10/dist-packages/scripts"
       )
 endif()
 

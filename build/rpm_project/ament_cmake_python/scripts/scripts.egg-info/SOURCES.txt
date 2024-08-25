@@ -1,7 +1,9 @@
 setup.py
 scripts/__init__.py
 scripts/rpm_pub.py
+scripts/rpm_pub_pam.py
 scripts/speed_calc.py
+scripts/speed_calc_pram.py
 scripts.egg-info/PKG-INFO
 scripts.egg-info/SOURCES.txt
 scripts.egg-info/dependency_links.txt

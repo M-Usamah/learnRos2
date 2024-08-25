@@ -316,11 +316,11 @@ ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_u
 # install(FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/rpm_project/environment")
 ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/rpm_project/environment")
 
-# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_python/scripts/scripts.egg-info/" "DESTINATION" "lib/python3.12/site-packages/scripts-0.0.0-py3.12.egg-info")
-ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_python/scripts/scripts.egg-info/" "DESTINATION" "lib/python3.12/site-packages/scripts-0.0.0-py3.12.egg-info")
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_python/scripts/scripts.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_python/scripts/scripts.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info")
 
-# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project/scripts/" "DESTINATION" "lib/python3.12/site-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project/scripts/" "DESTINATION" "lib/python3.12/site-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
 # install(PROGRAMS "scripts/rpm_pub.py" "scripts/speed_calc.py" "DESTINATION" "lib/rpm_project")
 ament_cmake_symlink_install_programs("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" PROGRAMS "scripts/rpm_pub.py" "scripts/speed_calc.py" "DESTINATION" "lib/rpm_project")
