@@ -8,7 +8,10 @@ def generate_launch_description():
         Node(
             package="rpm_project",
             executable="rpm_pub_pram.py",
-            name="rpm_pub_parm_node"
+            name="rpm_pub_parm_node",
+            parameters=[
+                {"rpm_radius":5}
+                ]
         ), Node(
             package="rpm_project",
             executable="speed_calc_pram.py",
