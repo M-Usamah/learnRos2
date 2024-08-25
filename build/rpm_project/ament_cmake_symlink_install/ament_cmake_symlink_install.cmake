@@ -325,6 +325,9 @@ ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/
 # install(PROGRAMS "scripts/rpm_pub.py" "scripts/speed_calc.py" "scripts/speed_calc_pram.py" "scripts/rpm_pub_pram.py" "DESTINATION" "lib/rpm_project")
 ament_cmake_symlink_install_programs("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" PROGRAMS "scripts/rpm_pub.py" "scripts/speed_calc.py" "scripts/speed_calc_pram.py" "scripts/rpm_pub_pram.py" "DESTINATION" "lib/rpm_project")
 
+# install(DIRECTORY "launch" "DESTINATION" "share/rpm_project/")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" DIRECTORY "launch" "DESTINATION" "share/rpm_project/")
+
 # install(FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rpm_project" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rpm_project" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
