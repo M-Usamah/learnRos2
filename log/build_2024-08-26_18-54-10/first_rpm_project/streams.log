@@ -1,0 +1,5 @@
+[0.014s] Invoking command in '/home/usamah/Documents/project/learnRos2/build/first_rpm_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/usamah/Documents/project/learnRos2/build/first_rpm_project -- -j16 -l16
+[0.027s] [0mCMake Error: The source directory "/home/usamah/Documents/project/learnRos2/02_udemy_project/src/first_rpm_project" does not exist.
+[0.027s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.028s] gmake: *** [Makefile:775: cmake_check_build_system] Error 1
+[0.029s] Invoked command in '/home/usamah/Documents/project/learnRos2/build/first_rpm_project' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/usamah/Documents/project/learnRos2/build/first_rpm_project -- -j16 -l16

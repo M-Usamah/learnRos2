@@ -1,0 +1,3 @@
+[0mCMake Error: The source directory "/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:254: cmake_check_build_system] Error 1
