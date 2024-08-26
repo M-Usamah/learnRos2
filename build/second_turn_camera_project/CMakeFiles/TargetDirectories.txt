@@ -1,0 +1,9 @@
+/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/CMakeFiles/uninstall.dir
+/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/CMakeFiles/second_turn_camera_project_uninstall.dir
+/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/CMakeFiles/test.dir
+/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/CMakeFiles/edit_cache.dir
+/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/CMakeFiles/rebuild_cache.dir
+/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/CMakeFiles/list_install_components.dir
+/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/CMakeFiles/install.dir
+/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/CMakeFiles/install/local.dir
+/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/CMakeFiles/install/strip.dir

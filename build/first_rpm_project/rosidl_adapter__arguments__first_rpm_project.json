@@ -1,0 +1,6 @@
+{
+  "package_name": "first_rpm_project",
+  "non_idl_tuples": [
+    "/home/usamah/Documents/project/learnRos2/02_udemy_project/src/first_rpm_project:srv/OddEvenCheck.srv"
+  ]
+}

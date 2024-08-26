@@ -1,0 +1,4 @@
+source;share/second_turn_camera_project/local_setup.bash
+source;share/second_turn_camera_project/local_setup.dsv
+source;share/second_turn_camera_project/local_setup.sh
+source;share/second_turn_camera_project/local_setup.zsh

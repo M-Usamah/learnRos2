@@ -1,0 +1,8 @@
+source;share/second_turn_camera_project/hook/cmake_prefix_path.ps1
+source;share/second_turn_camera_project/hook/cmake_prefix_path.dsv
+source;share/second_turn_camera_project/hook/cmake_prefix_path.sh
+source;share/second_turn_camera_project/local_setup.bash
+source;share/second_turn_camera_project/local_setup.dsv
+source;share/second_turn_camera_project/local_setup.ps1
+source;share/second_turn_camera_project/local_setup.sh
+source;share/second_turn_camera_project/local_setup.zsh

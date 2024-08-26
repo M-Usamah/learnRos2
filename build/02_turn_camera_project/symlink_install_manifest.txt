@@ -1,0 +1,15 @@
+/home/usamah/Documents/project/learnRos2/install/02_turn_camera_project/share/ament_index/resource_index/package_run_dependencies/02_turn_camera_project
+/home/usamah/Documents/project/learnRos2/install/02_turn_camera_project/share/ament_index/resource_index/parent_prefix_path/02_turn_camera_project
+/home/usamah/Documents/project/learnRos2/install/02_turn_camera_project/share/02_turn_camera_project/environment/ament_prefix_path.sh
+/home/usamah/Documents/project/learnRos2/install/02_turn_camera_project/share/02_turn_camera_project/environment/ament_prefix_path.dsv
+/home/usamah/Documents/project/learnRos2/install/02_turn_camera_project/share/02_turn_camera_project/environment/path.sh
+/home/usamah/Documents/project/learnRos2/install/02_turn_camera_project/share/02_turn_camera_project/environment/path.dsv
+/home/usamah/Documents/project/learnRos2/install/02_turn_camera_project/share/02_turn_camera_project/local_setup.bash
+/home/usamah/Documents/project/learnRos2/install/02_turn_camera_project/share/02_turn_camera_project/local_setup.sh
+/home/usamah/Documents/project/learnRos2/install/02_turn_camera_project/share/02_turn_camera_project/local_setup.zsh
+/home/usamah/Documents/project/learnRos2/install/02_turn_camera_project/share/02_turn_camera_project/local_setup.dsv
+/home/usamah/Documents/project/learnRos2/install/02_turn_camera_project/share/02_turn_camera_project/package.dsv
+/home/usamah/Documents/project/learnRos2/install/02_turn_camera_project/share/ament_index/resource_index/packages/02_turn_camera_project
+/home/usamah/Documents/project/learnRos2/install/02_turn_camera_project/share/02_turn_camera_project/cmake/02_turn_camera_projectConfig.cmake
+/home/usamah/Documents/project/learnRos2/install/02_turn_camera_project/share/02_turn_camera_project/cmake/02_turn_camera_projectConfig-version.cmake
+/home/usamah/Documents/project/learnRos2/install/02_turn_camera_project/share/02_turn_camera_project/package.xml
