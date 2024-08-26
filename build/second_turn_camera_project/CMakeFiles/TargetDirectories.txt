@@ -1,5 +1,7 @@
 /home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/CMakeFiles/uninstall.dir
 /home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/CMakeFiles/second_turn_camera_project_uninstall.dir
+/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/CMakeFiles/ament_cmake_python_symlink_scripts.dir
+/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/CMakeFiles/ament_cmake_python_build_scripts_egg.dir
 /home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/CMakeFiles/test.dir
 /home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/CMakeFiles/edit_cache.dir
 /home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/CMakeFiles/rebuild_cache.dir

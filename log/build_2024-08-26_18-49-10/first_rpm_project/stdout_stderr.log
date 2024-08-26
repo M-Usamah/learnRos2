@@ -1,0 +1,41 @@
+[35m[1mConsolidate compiler generated dependencies of target first_rpm_project__rosidl_generator_c[0m
+[  3%] Built target first_rpm_project__cpp
+[ 12%] Built target first_rpm_project__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_symlink_scripts
+[ 12%] Built target ament_cmake_python_symlink_first_rpm_project
+[35m[1mConsolidate compiler generated dependencies of target first_rpm_project__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target first_rpm_project__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target first_rpm_project__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target first_rpm_project__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target first_rpm_project__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target first_rpm_project__rosidl_typesupport_c[0m
+[ 25%] Built target first_rpm_project__rosidl_typesupport_cpp
+[ 32%] Built target first_rpm_project__rosidl_typesupport_introspection_c
+[ 41%] Built target first_rpm_project__rosidl_typesupport_fastrtps_c
+[ 51%] Built target first_rpm_project__rosidl_typesupport_c
+[ 61%] Built target first_rpm_project__rosidl_typesupport_introspection_cpp
+[ 70%] Built target first_rpm_project__rosidl_typesupport_fastrtps_cpp
+[ 70%] Built target first_rpm_project
+[ 74%] Built target first_rpm_project__py
+[35m[1mConsolidate compiler generated dependencies of target first_rpm_project__rosidl_generator_py[0m
+[ 80%] Built target first_rpm_project__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target first_rpm_project__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target first_rpm_project__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target first_rpm_project__rosidl_typesupport_c__pyext[0m
+[ 87%] Built target first_rpm_project__rosidl_typesupport_fastrtps_c__pyext
+[ 96%] Built target first_rpm_project__rosidl_typesupport_introspection_c__pyext
+[100%] Built target first_rpm_project__rosidl_typesupport_c__pyext
+running egg_info
+writing first_rpm_project.egg-info/PKG-INFO
+writing dependency_links to first_rpm_project.egg-info/dependency_links.txt
+writing top-level names to first_rpm_project.egg-info/top_level.txt
+reading manifest file 'first_rpm_project.egg-info/SOURCES.txt'
+writing manifest file 'first_rpm_project.egg-info/SOURCES.txt'
+running egg_info
+writing scripts.egg-info/PKG-INFO
+writing dependency_links to scripts.egg-info/dependency_links.txt
+writing top-level names to scripts.egg-info/top_level.txt
+reading manifest file 'scripts.egg-info/SOURCES.txt'
+writing manifest file 'scripts.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_first_rpm_project_egg
+[100%] Built target ament_cmake_python_build_scripts_egg

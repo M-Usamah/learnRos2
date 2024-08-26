@@ -310,6 +310,21 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/second_turn_camera_project/environment")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/second_turn_camera_project/environment")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/second_turn_camera_project/environment")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/second_turn_camera_project/environment")
+
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_python/scripts/scripts.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_python/scripts/scripts.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info")
+
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+
+# install(PROGRAMS "DESTINATION" "lib/second_turn_camera_project")
+ament_cmake_symlink_install_programs("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" PROGRAMS "DESTINATION" "lib/second_turn_camera_project")
+
 # install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/second_turn_camera_project" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/second_turn_camera_project" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
