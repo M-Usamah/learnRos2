@@ -1,5 +1,6 @@
 setup.py
 scripts/__init__.py
+scripts/turn_camer_client.py
 scripts/turn_camer_server.py
 scripts.egg-info/PKG-INFO
 scripts.egg-info/SOURCES.txt

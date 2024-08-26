@@ -24,6 +24,7 @@ ament_python_install_package(scripts)
 
 install(PROGRAMS
   scripts/turn_camer_server.py
+  scripts/turn_camer_client.py
   DESTINATION lib/${PROJECT_NAME}
 )
 # uncomment the following section in order to fill in

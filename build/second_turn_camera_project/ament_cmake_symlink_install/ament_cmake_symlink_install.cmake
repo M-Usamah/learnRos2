@@ -376,8 +376,8 @@ ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/
 # install(DIRECTORY "/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install(PROGRAMS "scripts/turn_camer_server.py" "DESTINATION" "lib/second_turn_camera_project")
-ament_cmake_symlink_install_programs("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" PROGRAMS "scripts/turn_camer_server.py" "DESTINATION" "lib/second_turn_camera_project")
+# install(PROGRAMS "scripts/turn_camer_server.py" "scripts/turn_camer_client.py" "DESTINATION" "lib/second_turn_camera_project")
+ament_cmake_symlink_install_programs("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" PROGRAMS "scripts/turn_camer_server.py" "scripts/turn_camer_client.py" "DESTINATION" "lib/second_turn_camera_project")
 
 # install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/second_turn_camera_project" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/second_turn_camera_project" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
