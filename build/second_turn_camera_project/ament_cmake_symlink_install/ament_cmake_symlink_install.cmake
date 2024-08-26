@@ -310,11 +310,65 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/second_turn_camera_project" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/second_turn_camera_project" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_generator_c/second_turn_camera_project/" "DESTINATION" "include/second_turn_camera_project/second_turn_camera_project" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_generator_c/second_turn_camera_project/" "DESTINATION" "include/second_turn_camera_project/second_turn_camera_project" "PATTERN" "*.h")
+
+# install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/second_turn_camera_project/environment")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/second_turn_camera_project/environment")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/second_turn_camera_project/environment")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/second_turn_camera_project/environment")
+
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_typesupport_fastrtps_c/second_turn_camera_project/" "DESTINATION" "include/second_turn_camera_project/second_turn_camera_project" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_typesupport_fastrtps_c/second_turn_camera_project/" "DESTINATION" "include/second_turn_camera_project/second_turn_camera_project" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_typesupport_introspection_c/second_turn_camera_project/" "DESTINATION" "include/second_turn_camera_project/second_turn_camera_project" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_typesupport_introspection_c/second_turn_camera_project/" "DESTINATION" "include/second_turn_camera_project/second_turn_camera_project" "PATTERN" "*.h")
+
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_generator_cpp/second_turn_camera_project/" "DESTINATION" "include/second_turn_camera_project/second_turn_camera_project" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_generator_cpp/second_turn_camera_project/" "DESTINATION" "include/second_turn_camera_project/second_turn_camera_project" "PATTERN" "*.hpp")
+
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_typesupport_fastrtps_cpp/second_turn_camera_project/" "DESTINATION" "include/second_turn_camera_project/second_turn_camera_project" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_typesupport_fastrtps_cpp/second_turn_camera_project/" "DESTINATION" "include/second_turn_camera_project/second_turn_camera_project" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_typesupport_introspection_cpp/second_turn_camera_project/" "DESTINATION" "include/second_turn_camera_project/second_turn_camera_project" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_typesupport_introspection_cpp/second_turn_camera_project/" "DESTINATION" "include/second_turn_camera_project/second_turn_camera_project" "PATTERN" "*.hpp")
+
 # install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/second_turn_camera_project/environment")
 ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/second_turn_camera_project/environment")
 
 # install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/second_turn_camera_project/environment")
 ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/second_turn_camera_project/environment")
+
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_python/second_turn_camera_project/second_turn_camera_project.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/second_turn_camera_project-0.0.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_python/second_turn_camera_project/second_turn_camera_project.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/second_turn_camera_project-0.0.0-py3.10.egg-info")
+
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_generator_py/second_turn_camera_project/" "DESTINATION" "local/lib/python3.10/dist-packages/second_turn_camera_project" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_generator_py/second_turn_camera_project/" "DESTINATION" "local/lib/python3.10/dist-packages/second_turn_camera_project" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+
+# install("TARGETS" "second_turn_camera_project__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/second_turn_camera_project")
+include("/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "second_turn_camera_project__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/second_turn_camera_project")
+include("/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "second_turn_camera_project__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/second_turn_camera_project")
+include("/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_adapter/second_turn_camera_project/srv/SecndProjectTurnCamer.idl" "DESTINATION" "share/second_turn_camera_project/srv")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_adapter/second_turn_camera_project/srv/SecndProjectTurnCamer.idl" "DESTINATION" "share/second_turn_camera_project/srv")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project/srv/SecndProjectTurnCamer.srv" "DESTINATION" "share/second_turn_camera_project/srv")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project/srv/SecndProjectTurnCamer.srv" "DESTINATION" "share/second_turn_camera_project/srv")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_cmake/srv/SecndProjectTurnCamer_Request.msg" "DESTINATION" "share/second_turn_camera_project/srv")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_cmake/srv/SecndProjectTurnCamer_Request.msg" "DESTINATION" "share/second_turn_camera_project/srv")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_cmake/srv/SecndProjectTurnCamer_Response.msg" "DESTINATION" "share/second_turn_camera_project/srv")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_cmake/srv/SecndProjectTurnCamer_Response.msg" "DESTINATION" "share/second_turn_camera_project/srv")
 
 # install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_python/scripts/scripts.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info")
 ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_python/scripts/scripts.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info")
@@ -322,8 +376,8 @@ ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/
 # install(DIRECTORY "/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install(PROGRAMS "DESTINATION" "lib/second_turn_camera_project")
-ament_cmake_symlink_install_programs("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" PROGRAMS "DESTINATION" "lib/second_turn_camera_project")
+# install(PROGRAMS "scripts/turn_camer_server.py" "DESTINATION" "lib/second_turn_camera_project")
+ament_cmake_symlink_install_programs("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" PROGRAMS "scripts/turn_camer_server.py" "DESTINATION" "lib/second_turn_camera_project")
 
 # install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/second_turn_camera_project" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/second_turn_camera_project" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
@@ -360,6 +414,27 @@ ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_u
 
 # install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_index/share/ament_index/resource_index/packages/second_turn_camera_project" "DESTINATION" "share/ament_index/resource_index/packages")
 ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_index/share/ament_index/resource_index/packages/second_turn_camera_project" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/second_turn_camera_project/cmake")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/second_turn_camera_project/cmake")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/second_turn_camera_project/cmake")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/second_turn_camera_project/cmake")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/second_turn_camera_project/cmake")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/second_turn_camera_project/cmake")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/second_turn_camera_project/cmake")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/second_turn_camera_project/cmake")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/second_turn_camera_project/cmake")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/second_turn_camera_project/cmake")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/second_turn_camera_project/cmake")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/second_turn_camera_project/cmake")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/second_turn_camera_project/cmake")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/second_turn_camera_project/cmake")
 
 # install(FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_core/second_turn_camera_projectConfig.cmake" "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_core/second_turn_camera_projectConfig-version.cmake" "DESTINATION" "share/second_turn_camera_project/cmake")
 ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/second_turn_camera_project" FILES "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_core/second_turn_camera_projectConfig.cmake" "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/ament_cmake_core/second_turn_camera_projectConfig-version.cmake" "DESTINATION" "share/second_turn_camera_project/cmake")

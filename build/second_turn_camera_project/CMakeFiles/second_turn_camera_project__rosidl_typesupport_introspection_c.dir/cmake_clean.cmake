@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/second_turn_camera_project__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/second_turn_camera_project/srv/detail/secnd_project_turn_camer__type_support.c.o"
+  "CMakeFiles/second_turn_camera_project__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/second_turn_camera_project/srv/detail/secnd_project_turn_camer__type_support.c.o.d"
+  "libsecond_turn_camera_project__rosidl_typesupport_introspection_c.pdb"
+  "libsecond_turn_camera_project__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/second_turn_camera_project/srv/detail/secnd_project_turn_camer__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/second_turn_camera_project/srv/detail/secnd_project_turn_camer__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/second_turn_camera_project__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

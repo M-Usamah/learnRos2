@@ -1,0 +1,58 @@
+[0.013s] Invoking command in '/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/usamah/Documents/project/learnRos2/build/second_turn_camera_project -- -j16 -l16
+[0.029s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.167s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.174s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.176s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.188s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.238s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.280s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.500s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.500s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.500s]   second_turn_camera_project --arguments-file
+[0.500s]   /home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_adapter__arguments__second_turn_camera_project.json
+[0.500s]   --output-dir
+[0.500s]   /home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_adapter/second_turn_camera_project
+[0.500s]   --output-file
+[0.500s]   /home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/rosidl_adapter/second_turn_camera_project.idls)
+[0.501s]   returned error code 1:
+[0.501s] 
+[0.501s]   Error processing 'folat32 degree_turn' of
+[0.501s]   'second_turn_camera_project/SecndProjectTurnCamer_Request': ''folat32' is
+[0.501s]   an invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[0.501s] 
+[0.501s]   Traceback (most recent call last):
+[0.501s] 
+[0.501s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.501s]       return _run_code(code, main_globals, None,
+[0.501s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.501s]       exec(code, run_globals)
+[0.501s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.501s]       sys.exit(main())
+[0.501s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.501s]       abs_idl_file = convert_to_idl(
+[0.501s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.501s]       return convert_srv_to_idl(
+[0.501s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.501s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.501s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[0.502s]       request_message = parse_message_string(
+[0.502s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[0.502s]       Type(type_string, context_package_name=pkg_name),
+[0.502s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[0.502s]       super(Type, self).__init__(
+[0.502s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.502s]       raise InvalidResourceName(
+[0.502s] 
+[0.502s]   rosidl_adapter.parser.InvalidResourceName: 'folat32' is an invalid message
+[0.502s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.502s] 
+[0.502s] Call Stack (most recent call first):
+[0.502s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.502s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.502s] 
+[0.502s] [0m
+[0.502s] -- Configuring incomplete, errors occurred!
+[0.503s] See also "/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project/CMakeFiles/CMakeOutput.log".
+[0.507s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[0.512s] Invoked command in '/home/usamah/Documents/project/learnRos2/build/second_turn_camera_project' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/usamah/Documents/project/learnRos2/build/second_turn_camera_project -- -j16 -l16

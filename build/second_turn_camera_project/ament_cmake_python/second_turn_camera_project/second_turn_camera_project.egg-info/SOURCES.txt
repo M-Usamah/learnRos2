@@ -1,0 +1,8 @@
+setup.py
+second_turn_camera_project/__init__.py
+second_turn_camera_project.egg-info/PKG-INFO
+second_turn_camera_project.egg-info/SOURCES.txt
+second_turn_camera_project.egg-info/dependency_links.txt
+second_turn_camera_project.egg-info/top_level.txt
+second_turn_camera_project/srv/__init__.py
+second_turn_camera_project/srv/_secnd_project_turn_camer.py
