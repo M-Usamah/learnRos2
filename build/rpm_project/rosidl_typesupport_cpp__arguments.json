@@ -1,0 +1,17 @@
+{
+  "package_name": "rpm_project",
+  "output_dir": "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_typesupport_cpp/rpm_project",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_adapter/rpm_project:srv/OddEvenCheck.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_adapter/rpm_project/srv/OddEvenCheck.idl"
+  ]
+}

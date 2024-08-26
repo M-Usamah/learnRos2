@@ -1,6 +1,9 @@
 source;share/rpm_project/hook/cmake_prefix_path.ps1
 source;share/rpm_project/hook/cmake_prefix_path.dsv
 source;share/rpm_project/hook/cmake_prefix_path.sh
+source;share/rpm_project/hook/ld_library_path_lib.ps1
+source;share/rpm_project/hook/ld_library_path_lib.dsv
+source;share/rpm_project/hook/ld_library_path_lib.sh
 source;share/rpm_project/local_setup.bash
 source;share/rpm_project/local_setup.dsv
 source;share/rpm_project/local_setup.ps1

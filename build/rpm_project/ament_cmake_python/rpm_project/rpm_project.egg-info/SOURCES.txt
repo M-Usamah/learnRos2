@@ -1,0 +1,8 @@
+setup.py
+rpm_project/__init__.py
+rpm_project.egg-info/PKG-INFO
+rpm_project.egg-info/SOURCES.txt
+rpm_project.egg-info/dependency_links.txt
+rpm_project.egg-info/top_level.txt
+rpm_project/srv/__init__.py
+rpm_project/srv/_odd_even_check.py

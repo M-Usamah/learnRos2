@@ -10,6 +10,12 @@ find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
 find_package(rcl REQUIRED)
 
+find_package(rosidl_default_generators REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "srv/OddEvenCheck.srv"
+)
+
 ament_python_install_package(scripts)
 
 install(PROGRAMS
@@ -17,6 +23,8 @@ install(PROGRAMS
   scripts/speed_calc.py
   scripts/speed_calc_pram.py
   scripts/rpm_pub_pram.py
+  scripts/service_server.py
+  scripts/service_client.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

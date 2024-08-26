@@ -310,11 +310,65 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/rpm_project" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/rpm_project" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_generator_c/rpm_project/" "DESTINATION" "include/rpm_project/rpm_project" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_generator_c/rpm_project/" "DESTINATION" "include/rpm_project/rpm_project" "PATTERN" "*.h")
+
+# install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/rpm_project/environment")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/rpm_project/environment")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/rpm_project/environment")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/rpm_project/environment")
+
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_typesupport_fastrtps_c/rpm_project/" "DESTINATION" "include/rpm_project/rpm_project" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_typesupport_fastrtps_c/rpm_project/" "DESTINATION" "include/rpm_project/rpm_project" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_generator_cpp/rpm_project/" "DESTINATION" "include/rpm_project/rpm_project" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_generator_cpp/rpm_project/" "DESTINATION" "include/rpm_project/rpm_project" "PATTERN" "*.hpp")
+
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_typesupport_fastrtps_cpp/rpm_project/" "DESTINATION" "include/rpm_project/rpm_project" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_typesupport_fastrtps_cpp/rpm_project/" "DESTINATION" "include/rpm_project/rpm_project" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_typesupport_introspection_c/rpm_project/" "DESTINATION" "include/rpm_project/rpm_project" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_typesupport_introspection_c/rpm_project/" "DESTINATION" "include/rpm_project/rpm_project" "PATTERN" "*.h")
+
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_typesupport_introspection_cpp/rpm_project/" "DESTINATION" "include/rpm_project/rpm_project" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_typesupport_introspection_cpp/rpm_project/" "DESTINATION" "include/rpm_project/rpm_project" "PATTERN" "*.hpp")
+
 # install(FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/rpm_project/environment")
 ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/rpm_project/environment")
 
 # install(FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/rpm_project/environment")
 ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/rpm_project/environment")
+
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_python/rpm_project/rpm_project.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/rpm_project-0.0.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_python/rpm_project/rpm_project.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/rpm_project-0.0.0-py3.10.egg-info")
+
+# install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_generator_py/rpm_project/" "DESTINATION" "local/lib/python3.10/dist-packages/rpm_project" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_generator_py/rpm_project/" "DESTINATION" "local/lib/python3.10/dist-packages/rpm_project" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+
+# install("TARGETS" "rpm_project__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/rpm_project")
+include("/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "rpm_project__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/rpm_project")
+include("/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "rpm_project__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/rpm_project")
+include("/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_adapter/rpm_project/srv/OddEvenCheck.idl" "DESTINATION" "share/rpm_project/srv")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_adapter/rpm_project/srv/OddEvenCheck.idl" "DESTINATION" "share/rpm_project/srv")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project/srv/OddEvenCheck.srv" "DESTINATION" "share/rpm_project/srv")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project/srv/OddEvenCheck.srv" "DESTINATION" "share/rpm_project/srv")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_cmake/srv/OddEvenCheck_Request.msg" "DESTINATION" "share/rpm_project/srv")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_cmake/srv/OddEvenCheck_Request.msg" "DESTINATION" "share/rpm_project/srv")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_cmake/srv/OddEvenCheck_Response.msg" "DESTINATION" "share/rpm_project/srv")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_cmake/srv/OddEvenCheck_Response.msg" "DESTINATION" "share/rpm_project/srv")
 
 # install(DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_python/scripts/scripts.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info")
 ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_python/scripts/scripts.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info")
@@ -322,8 +376,8 @@ ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/
 # install(DIRECTORY "/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" DIRECTORY "/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project/scripts/" "DESTINATION" "local/lib/python3.10/dist-packages/scripts" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install(PROGRAMS "scripts/rpm_pub.py" "scripts/speed_calc.py" "scripts/speed_calc_pram.py" "scripts/rpm_pub_pram.py" "DESTINATION" "lib/rpm_project")
-ament_cmake_symlink_install_programs("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" PROGRAMS "scripts/rpm_pub.py" "scripts/speed_calc.py" "scripts/speed_calc_pram.py" "scripts/rpm_pub_pram.py" "DESTINATION" "lib/rpm_project")
+# install(PROGRAMS "scripts/rpm_pub.py" "scripts/speed_calc.py" "scripts/speed_calc_pram.py" "scripts/rpm_pub_pram.py" "scripts/service_server.py" "scripts/service_client.py" "DESTINATION" "lib/rpm_project")
+ament_cmake_symlink_install_programs("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" PROGRAMS "scripts/rpm_pub.py" "scripts/speed_calc.py" "scripts/speed_calc_pram.py" "scripts/rpm_pub_pram.py" "scripts/service_server.py" "scripts/service_client.py" "DESTINATION" "lib/rpm_project")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/rpm_project/")
 ament_cmake_symlink_install_directory("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" DIRECTORY "launch" "DESTINATION" "share/rpm_project/")
@@ -363,6 +417,27 @@ ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_u
 
 # install(FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_index/share/ament_index/resource_index/packages/rpm_project" "DESTINATION" "share/ament_index/resource_index/packages")
 ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_index/share/ament_index/resource_index/packages/rpm_project" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/rpm_project/cmake")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/rpm_project/cmake")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/rpm_project/cmake")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/rpm_project/cmake")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/rpm_project/cmake")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/rpm_project/cmake")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/rpm_project/cmake")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/rpm_project/cmake")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/rpm_project/cmake")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/rpm_project/cmake")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/rpm_project/cmake")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/rpm_project/cmake")
+
+# install(FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/rpm_project/cmake")
+ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/rpm_project/cmake")
 
 # install(FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_core/rpm_projectConfig.cmake" "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_core/rpm_projectConfig-version.cmake" "DESTINATION" "share/rpm_project/cmake")
 ament_cmake_symlink_install_files("/home/usamah/Documents/project/learnRos2/02_udemy_project/src/rpm_project" FILES "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_core/rpm_projectConfig.cmake" "/home/usamah/Documents/project/learnRos2/build/rpm_project/ament_cmake_core/rpm_projectConfig-version.cmake" "DESTINATION" "share/rpm_project/cmake")

@@ -2,6 +2,8 @@ setup.py
 scripts/__init__.py
 scripts/rpm_pub.py
 scripts/rpm_pub_pram.py
+scripts/service_client.py
+scripts/service_server.py
 scripts/speed_calc.py
 scripts/speed_calc_pram.py
 scripts.egg-info/PKG-INFO
